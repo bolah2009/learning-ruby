@@ -1,10 +1,8 @@
 # Learning Ruby
 
-<<<<<<< HEAD
+
 ##### *Current branch: master: you can change branch to see different solution for each quiz* 
-=======
-##### *Current branch: quiz-1*
->>>>>>> quiz-1
+
 
 #### This is a personal project created to track my learning progress on ruby
 
