@@ -1,6 +1,6 @@
 # Learning Ruby
 
-##### *Current branch: quiz-1*
+##### *Current branch: master: you can change branch to see different solution for each quiz* 
 
 #### This is a personal project created to track my learning progress on ruby
 
