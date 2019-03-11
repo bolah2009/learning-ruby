@@ -15,9 +15,9 @@
 |1. Numbers |[Numbers Quiz](https://pine.fm/LearnToProgram/chap_01.html)|Done|[Numbers Solution](/quiz-1-ruby.rb)| 
 |2. Letters and Input |[Letters and Input Quiz](https://pine.fm/LearnToProgram/chap_04.html)|Done|[Letters and Input Solution](/quiz-2-ruby.rb)|     
 |3. Flow Control |[Flow Control](https://pine.fm/LearnToProgram/chap_06.html)|Done|[Flow Control](/quiz-3-ruby.rb)|
-|4. Arrays and Iterators |N/A|N/A|N/A|
+|4. Arrays and Iterators|[Arrays and Iterators](https://pine.fm/LearnToProgram/chap_07.html)|Done|[Arrays and Iterators](/quiz-4-ruby.rb)|
 |5. Writing Your Own Methods |N/A|N/A|N/A|   
-|6. Classes |N/A|N/A|N/A |
+|6. Classes |N/A|N/A|N/A|
 |7. Blocks and Procs  |N/A|N/A|N/A|
 
 #### Contact
