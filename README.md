@@ -13,13 +13,12 @@
 | Quiz Topics | Link | Solution Status | Solution Link|
 |------------ | ------------- | :-------------: | -------------|
 |1. Numbers |[Numbers Quiz](https://pine.fm/LearnToProgram/chap_01.html)|Done|[Numbers Solution](/quiz-1-ruby.rb)| 
-|2. Letters and Input |[Letters and Input Quiz](https://pine.fm/LearnToProgram/chap_04.html)|Done|[Letters and Input Solution](/quiz-2-ruby.rb)| 
-|3. More About Methods |N/A|N/A|N/A|     
-|4. Flow Control |N/A|N/A|N/A|
-|5. Arrays and Iterators |N/A|N/A|N/A|
-|6. Writing Your Own Methods |N/A|N/A|N/A|   
-|7. Classes |N/A|N/A|N/A |
-|8. Blocks and Procs  |N/A|N/A|N/A|
+|2. Letters and Input |[Letters and Input Quiz](https://pine.fm/LearnToProgram/chap_04.html)|Done|[Letters and Input Solution](/quiz-2-ruby.rb)|     
+|3. Flow Control |[Flow Control](https://pine.fm/LearnToProgram/chap_06.html)|Done|[Flow Control](/quiz-3-ruby.rb)|
+|4. Arrays and Iterators |N/A|N/A|N/A|
+|5. Writing Your Own Methods |N/A|N/A|N/A|   
+|6. Classes |N/A|N/A|N/A |
+|7. Blocks and Procs  |N/A|N/A|N/A|
 
 #### Contact
 * [Web](https://bolabuari.com/) - [Twitter](https://twitter.com/bolah2009) - [GitHub](https://github.com/bolah2009/) - [GitLab](https://gitlab.com/bolah2009/) - [LinkedIn](https://www.linkedin.com/in/bolah2009/)
