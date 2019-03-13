@@ -16,7 +16,7 @@
 |2. Letters and Input |[Letters and Input Quiz](https://pine.fm/LearnToProgram/chap_04.html)|Done|[Letters and Input Solution](/quiz-2-ruby.rb)|     
 |3. Flow Control |[Flow Control](https://pine.fm/LearnToProgram/chap_06.html)|Done|[Flow Control](/quiz-3-ruby.rb)|
 |4. Arrays and Iterators|[Arrays and Iterators](https://pine.fm/LearnToProgram/chap_07.html)|Done|[Arrays and Iterators](/quiz-4-ruby.rb)|
-|5. Writing Your Own Methods |N/A|N/A|N/A|   
+|5. Writing Your Own Methods |[Writing Your Own Methods](https://pine.fm/LearnToProgram/chap_08.html)|Done|[Arrays and Iterators](/quiz-5-ruby.rb)| 
 |6. Classes |N/A|N/A|N/A|
 |7. Blocks and Procs  |N/A|N/A|N/A|
 
