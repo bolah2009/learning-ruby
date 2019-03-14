@@ -12,7 +12,82 @@
 # and pickAnOrange (which reduces the @orangeCount by one and returns a string telling you how delicious the orange was, or else it just tells you that there are no more oranges to pick this year).
 # Make sure that any oranges you don't pick one year fall off before the next year.
 
+class OrangeTree
 
+    def initialize 
+        @height = 0
+        @orangeCount = 0
+        @yearOld =  0  
+    end
+
+    def height
+        puts "The orange tree is " + @height.to_s + " meters tall."
+    end
+
+    def oneYearPasses
+        @yearOld += 1
+        if @yearOld < 3
+            @height += 2
+            @orangeCount = 3
+        elsif @yearOld <= 5
+            @height += 3
+            @orangeCount = 5
+        elsif @yearOld > 5
+            @height += 4
+            @orangeCount = 10
+        end
+
+        if @yearOld  >= 7
+            puts "The tree is too old ... and dies"
+            exit
+        end
+    end
+
+    def countTheOranges
+        if @orangeCount == 0
+            puts "There is no more orange on the tree to count. Come back next year."
+        else
+            puts "You have " + @orangeCount.to_s + " oranges left."
+        end
+    end
+
+    def pickAnOrange
+        if @orangeCount > 0
+            puts "hmmm... What a delicious orange!!!"
+            @orangeCount -= 1
+        else
+            puts "You have picked all the oranges on the tree. Come back next year."
+        end
+    end
+
+end
+
+# Test cases
+
+orange = OrangeTree.new
+orange.oneYearPasses
+orange.height
+orange.countTheOranges
+orange.pickAnOrange
+orange.pickAnOrange
+orange.pickAnOrange
+orange.pickAnOrange
+orange.countTheOranges
+orange.oneYearPasses
+orange.countTheOranges
+orange.height
+orange.oneYearPasses
+orange.countTheOranges
+orange.height
+orange.oneYearPasses
+orange.oneYearPasses
+orange.oneYearPasses
+orange.countTheOranges
+orange.height
+orange.oneYearPasses
+
+#This stops the next program from running
+exit
 
 # Write a program so that you can interact with your baby dragon.
 # You should be able to enter commands like  feed and walk,
