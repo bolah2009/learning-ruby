@@ -29,7 +29,7 @@ class Dragon
       name = gets.chomp.upcase
       @name = name
       @asleep = false
-      @stuffInBelly     = 10  # He's full.
+      @stuffInBelly     = 5  # He's full.
       @stuffInIntestine =  0  # He doesn't need to go.
   
       puts @name + ' is born.'
@@ -60,13 +60,14 @@ class Dragon
   
     def feed
       puts 'You feed ' + @name + '.'
-      @stuffInBelly = 10
+      @stuffInBelly += 3
       passageOfTime
     end
   
     def walk
       puts 'You walk ' + @name + '.'
       @stuffInIntestine = 0
+      @stuffInBelly -= 1
       passageOfTime
     end
   
@@ -90,6 +91,7 @@ class Dragon
     def toss
       puts 'You toss ' + @name + ' up into the air.'
       puts 'He giggles, which singes your eyebrows.'
+      @stuffInBelly -= 1
       passageOfTime
     end
   
@@ -97,6 +99,7 @@ class Dragon
       puts 'You rock ' + @name + ' gently.'
       @asleep = true
       puts 'He briefly dozes off...'
+      @stuffInBelly -= 1
       passageOfTime
       if @asleep
         @asleep = false
