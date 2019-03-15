@@ -17,7 +17,7 @@
 |3. Flow Control |[Flow Control](https://pine.fm/LearnToProgram/chap_06.html)|Done|[Flow Control](/quiz-3-ruby.rb)|
 |4. Arrays and Iterators|[Arrays and Iterators](https://pine.fm/LearnToProgram/chap_07.html)|Done|[Arrays and Iterators](/quiz-4-ruby.rb)|
 |5. Writing Your Own Methods |[Writing Your Own Methods](https://pine.fm/LearnToProgram/chap_08.html)|Done|[Arrays and Iterators](/quiz-5-ruby.rb)| 
-|6. Classes |N/A|N/A|N/A|
+|6. Classes  |[Classes](https://pine.fm/LearnToProgram/chap_09.html)|Done|[Classes (Part 1)](/quiz-6-part-1-ruby.rb)  [Classes (Part 2)](/quiz-6-part-2-ruby.rb)| 
 |7. Blocks and Procs  |N/A|N/A|N/A|
 
 #### Contact
