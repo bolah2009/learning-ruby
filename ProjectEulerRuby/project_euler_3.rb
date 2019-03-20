@@ -11,23 +11,29 @@
 # What is the largest prime factor of the number 600851475143 ?
 
 class PrimeFactor
-
-    def initialize number
-        if number.is_a?(Integer) 
-        @number = number
-        else
-            puts "Enter a valid number ..."
-            exit
-        end
-        @sum = 0
-        @index = 2
-        @array = []
-        prime_factor @number
+  def initialize(number)
+    if number.is_a?(Integer)
+      @number = number
+    else
+      puts 'Enter a valid number ...'
+      exit
     end
+  end
 
-    def factor number
-        if @number%(@index) == 0
-                factor = @index
-        end
+  def is_prime
+    prime @number
+  end
+
+  def prime(number)
+    index = 2
+    while index < number
+      return false if (number % index).zero?
+
+      index += 1
     end
+    true
+  end
 end
+
+prime = PrimeFactor.new(29)
+puts prime.is_prime
