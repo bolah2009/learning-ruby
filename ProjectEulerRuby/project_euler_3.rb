@@ -33,7 +33,36 @@ class PrimeFactor
     end
     true
   end
+
+  def prime_numbers
+    array = []
+    index = 2
+    while index < @number
+      array.push(index) if prime index
+      index += 1
+    end
+    array
+  end
+
+  def prime_factors
+    prime_numbers_array = prime_numbers
+    prime_factors = []
+    index = 0
+    while index < prime_numbers_array.length
+      prime_number = prime_numbers_array[index]
+      prime_factors.push(prime_number) if (@number % prime_number).zero?
+      index += 1
+    end
+    prime_factors
+  end
+
+  def largest_prime_factor
+    prime_factors.last
+  end
 end
 
-prime = PrimeFactor.new(29)
+prime = PrimeFactor.new(600_851_475_143)
 puts prime.is_prime
+puts prime.prime_numbers.to_s
+puts prime.prime_factors.to_s
+puts prime.largest_prime_factor.to_s

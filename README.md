@@ -33,7 +33,7 @@
 |------------ | ------------- | :-------------: | -------------|
 |1. Multiples of 3 and 5 |[Multiples of 3 and 5](https://projecteuler.net/problem=1)|Done|[Solution 1](/ProjectEulerRuby/project_euler_1.rb)|
 |2. Even Fibonacci numbers |[Even Fibonacci numbers](https://projecteuler.net/problem=2)|Done|[Solution 2](/ProjectEulerRuby/project_euler_2.rb)|
-|3. Largest prime factor |[Largest prime factor](https://projecteuler.net/problem=3)|Not Done|[Solution 3](/ProjectEulerRuby)|
+|3. Largest prime factor |[Largest prime factor](https://projecteuler.net/problem=3)|Done|[Solution 3](/ProjectEulerRuby/project_euler_3.rb)|
 |4. Largest palindrome product |[Largest palindrome product](https://projecteuler.net/problem=4)|Not Done|[Solution 4](/ProjectEulerRuby)|
 |5. Smallest multiple |[Smallest multiple](https://projecteuler.net/problem=5)|Not Done|[Solution 5](/ProjectEulerRuby)|
 |6. Sum square difference |[Sum square difference](https://projecteuler.net/problem=6)|Not Done|[Solution 6](/ProjectEulerRuby)|
